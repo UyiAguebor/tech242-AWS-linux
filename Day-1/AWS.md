@@ -16,3 +16,32 @@ It provides on-demand access to resources.
 - AWS Points of Presence refer to locations where AWS has edge locations or edge caches.
 - Edge locations are part of the AWS Content Delivery Network (CDN) called Amazon CloudFront.
 - They are strategically positioned to provide low-latency access to content, improving the performance of applications and websites.
+
+servers strategically dotted around world in palces where theyre are high usage
+
+## AWS Security 
+- access management 
+- key management
+
+## Core Services
+-    compute services
+-   storage servi es
+-    database services
+-    networking
+
+## Monitorting and management 
+- monitor resources and colleect metrics
+- record API calls
+
+## Deployment and automation
+ - can provision resources
+ - managae applications without dealing with infrastructure
+
+ ## Dev tools 
+ - Manage repositories
+ - build and test code in cloud
+ - automate app deployment
+
+ ## Global Reach
+
+ - Centers located around the world allows users to deploy apps globally
