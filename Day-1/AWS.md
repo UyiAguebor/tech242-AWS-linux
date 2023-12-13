@@ -34,18 +34,18 @@ Availability zones help with availability. when setting up an ec2 instance you c
 -    networking
 
 ## Monitorting and management 
-- monitor resources and colleect metrics
-- record API calls
+- monitor resources and colleect metrics.
+- record API calls.
 
 ## Deployment and automation
  - can provision resources
- - managae applications without dealing with infrastructure
+ - managae applications without dealing with infrastructure.
 
  ## Dev tools 
- - Manage repositories
- - build and test code in cloud
- - automate app deployment
+ - Manage repositories.
+ - build and test code in cloud.
+ - automate app deployment.
 
  ## Global Reach
 
- - Centers located around the world allows users to deploy apps globally
+ - Centers located around the world allows users to deploy apps globally.
