@@ -51,7 +51,7 @@ Create security groups
 If youve created one simply select existing:
 - My exiting is called tech242-uyi-allow-SSH-my-IP-HTTP
 
-
+![Network settings](../readme-images/Network_Settings_Instance.png)
 
 ## Then launch instance
 "~/.ssh/tech242.pem"
