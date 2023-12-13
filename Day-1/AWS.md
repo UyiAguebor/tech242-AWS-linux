@@ -12,12 +12,14 @@ It provides on-demand access to resources.
 - Regions are designed to be isolated from each other, providing redundancy and fault tolerance.
 
 ## AWS Points of Presence (PoPs):
-    speed up the delivery to people.
+
 - AWS Points of Presence refer to locations where AWS has edge locations or edge caches.
 - Edge locations are part of the AWS Content Delivery Network (CDN) called Amazon CloudFront.
 - They are strategically positioned to provide low-latency access to content, improving the performance of applications and websites.
 
 Servers strategically dotted around world in palces where theyre are high usage.
+
+POPs -> speed up the delivery to people.
 
 Availability zones help with availability. when setting up an ec2 instance you can choose different zones to help with availablity.
 
