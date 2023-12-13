@@ -4,6 +4,7 @@
 
 Definition: Cloud computing is a technology model that allows access to computing resources (such as servers, storage, databases, networking, software, analytics, and intelligence) over the internet, typically in a pay-as-you-go model.
 
+main services on-demand highly available: compute services(VM), storage and networking.
 ## Diagram: Cloud Computing Diagram ![Cloud Computing Diagram!](../readme-images/CloudComputingDiagram.png)
 
 ## Quick History/Timeline of Cloud Computing:
@@ -24,7 +25,8 @@ Definition: Cloud computing is a technology model that allows access to computin
 Store, run applications and services, database management, connect and run applications globally, analytics, machine learning.
 
 ## 4 Types of Cloud Services:
-- Infrastructure as a Service (IaaS): Provides virtualized computing resources over the internet.(most control)
+![Diagram of services](../readme-images/CloudServices.png)
+- Infrastructure as a Service (IaaS): Provides virtualized computing resources over the internet.(most control = operating system level)
 - Platform as a Service (PaaS): Offers a platform allowing customers to develop, run, and manage applications without dealing with the underlying infrastructure.
 - Software as a Service (SaaS): Delivers software applications over the internet.
 - Function as a Service (FaaS): Enables running individual functions or pieces of code in response to events.
@@ -109,3 +111,19 @@ CapEx - physical asset expenditure/capital
 - Storage (Data Storage, File Storage)
 - Network Usage (Data Transfer)
 - Additional Services (Databases, Machine Learning, etc.)
+
+## Serverless
+
+Definition: 
+- it means you dont know at all or have any control over which servers are spun up and to what degree.
+- can potentially cost a lot more as they scale up on demand and scale up to meet demand.
+- you dont know what servers are spun up to meet demand.
+
+## Scaling
+
+Vertically scaling
+- To scale up I want more memory or cpu workload will move form old VM to the new VM wth more memory and cpu and the old one is terminated.
+
+
+Horizontally scaling(serverless services)
+- To scale horizontally scale out meants it creates more VM to meet the demand. Scaling in will mean terminate uneeded VM.

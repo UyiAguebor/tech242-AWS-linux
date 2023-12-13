@@ -53,7 +53,7 @@ Commands to Learn off by heart
 ## file extensions
 windows uses extension to determine the type of file
 - `file {file name}` : see what type of file it is
-- `mv {file name}` : move renames files
+- `mv {file name}` : move renames files and moves them
 - `curl {link}` : to download a file onto your machine
 - `cp {filetocopy copyfilename}` : copy a file
 - `rm {filename}` : remove a file

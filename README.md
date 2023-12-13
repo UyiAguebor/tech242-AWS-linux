@@ -1,33 +1,38 @@
-# Week 1 - AWS and linux ctrl shift p 
+# <u>Week 1 - AWS and linux</u>
+ ctrl shift p 
 
-- [Week 1 - AWS and linux ctrl shift p](#week-1---aws-and-linux-ctrl-shift-p)
-  - [Day 1 - Introduction to Cloud and AWS!](#day-1---introduction-to-cloud-and-aws)
-  - [Day 2 - EC2 Bash and Linux](#day-2---ec2-bash-and-linux)
-  - [How to change directory in Linux](#how-to-change-directory-in-linux)
+- [Week 1 - AWS and linux](#week-1---aws-and-linux)
+  - [**Day 1 - Introduction to Cloud and AWS!**](#day-1---introduction-to-cloud-and-aws)
+    - [Lesson Notes:](#lesson-notes)
+  - [**Day 2 - EC2, Bash and Linux**](#day-2---ec2-bash-and-linux)
+    - [Lesson Notes:](#lesson-notes-1)
+    - [Research:](#research)
+  - [**Day 3 - Scripting**](#day-3---scripting)
+    - [Lesson Notes:](#lesson-notes-2)
+  - [**Day - 4**](#day---4)
 
-## Day 1 - Introduction to Cloud and AWS!
+## **Day 1 - Introduction to Cloud and AWS!**
 
-- What is Cloud
-    - [cloud page](Day-1/Cloud.md)
+### <u>Lesson Notes:</u>
+ - Cloud [Notes](Day-1/Cloud.md)
+ - AWS [Notes](Day-1/AWS.md)
 
-- What is AWS
-    - [AWS page](Day-1/AWS.md)
+## **Day 2 - EC2, Bash and Linux**
 
-## Day 2 - EC2 Bash and Linux
-
+### <u>Lesson Notes:</u>
  - EC2 [Notes](Day-2/EC2.md)
  - Bash [Notes](Day-2/Bash.md)
  - Linux [Notes](Day-2/Linux.md)
   
-Research:
-- [File Ownership](Day-2/fileOwnership.md)
-- [File permissions](Day-2/filePermissions.md)
+### <u>Research:</u>
+- File Ownership [Notes](Day-2/fileOwnership.md)
+- File permissions [Notes](Day-2/filePermissions.md)
 
-## How to change directory in Linux
 
-Change directory using this command: `cd <directory>`
-Change directory using this command: 
-```
-cd <directory>
-other commands
-```
+## **Day 3 - Scripting**
+### <u>Lesson Notes:</u>
+- Scripting [Notes](Day-3/Scripting.md)
+- Environment Variable [Notes](Day-3/EnvironmentVariables.md)
+- Processess [Notes](Day-3/Processes.md)
+
+## **Day - 4**
