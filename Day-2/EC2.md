@@ -16,13 +16,14 @@
 - 12 Amazon Machine Image (AMI):the files you wantr to start off with
 - 13Key pair: like a padlock on the computer
 
+![EC2 diagram](../readme-images/EC2-diagram.jpg)
 
 # Creating an EC2 instance
 
-## Name 
+## 1. Name 
 ![Naming](../readme-images/Instance_Name.png)
 
-## Locating Amazon Machine Image: 
+## 2. Locating Amazon Machine Image: 
 - look for more 
 - Select "Community AMIs(500)"
 - Search "20230424" and select the image ending in 1e9
@@ -31,18 +32,18 @@ Direct link: ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20230424 ami
 
 ![Select Image](../readme-images/Select_Image_Instance.png)
 
-## Instance Type
+## 3. Instance Type
 t2.micro
 free for a certain amount of time in a month
 
 ![Instance Type](../readme-images/Instance_Type.png)
 
-## Key Pair
+## 4. Key Pair
 Key Pair tech242
 
 ![Key Pair to select](../readme-images/Key_Pair_Instance.png)
 
-## Network settings
+## 5. Network settings
 Create security groups
 - Edit "Security group name" and "Description"
 - ssh and my IP
@@ -53,7 +54,8 @@ If youve created one simply select existing:
 
 ![Network settings](../readme-images/Network_Settings_Instance.png)
 
-## Then launch instance
+## 6.Then launch instance and connect 
+
 "~/.ssh/tech242.pem"
 
 ## Security group
