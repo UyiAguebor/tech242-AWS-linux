@@ -8,6 +8,7 @@
   - [**Day 3 - Scripting**](#day-3---scripting)
     - [Lesson Notes](#lesson-notes-2)
   - [**Day - 4**](#day---4)
+    - [Lesson Notes](#lesson-notes-3)
 
 ## **Day 1 - Introduction to Cloud and AWS!**
 
@@ -34,3 +35,6 @@
 - Processess [Notes](Day-3/Processes.md)
 
 ## **Day - 4**
+### <u>Lesson Notes</u>
+- Deployment [Notes](Day-4/Deployment.md)
+- Deployment Steps [Notes](Day-4/DeployingJavaApp.md)

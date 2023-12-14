@@ -5,7 +5,10 @@
 Definition: Cloud computing is a technology model that allows access to computing resources (such as servers, storage, databases, networking, software, analytics, and intelligence) over the internet, typically in a pay-as-you-go model.
 
 main services on-demand highly available: compute services(VM), storage and networking.
-## Diagram: Cloud Computing Diagram ![Cloud Computing Diagram!](../readme-images/CloudComputingDiagram.png)
+## Diagram: Cloud Computing Diagram 
+
+![Cloud Computing Diagram!](../readme-images/CloudComputingDiagram.png)
+
 
 ## Quick History/Timeline of Cloud Computing:
 - 1960s-1970s: The concept of cloud computing begins to take shape.
