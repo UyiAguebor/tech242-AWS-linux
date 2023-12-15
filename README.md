@@ -9,6 +9,8 @@
     - [Lesson Notes](#lesson-notes-2)
   - [**Day 4 - Java App Deployment on VM**](#day-4---java-app-deployment-on-vm)
     - [Lesson Notes](#lesson-notes-3)
+  - [**Day 5 - Apache**](#day-5---apache)
+    - [Lesson Notes](#lesson-notes-4)
 
 ## **Day 1 - Introduction to Cloud and AWS!**
 
@@ -38,3 +40,6 @@
 ### <u>Lesson Notes</u>
 - Deployment [Notes](Day-4/Deployment.md)
 - Deployment Steps [Notes](Day-4/DeployingJavaApp.md)
+
+## **Day 5 - Apache**
+### <u>Lesson Notes</u>

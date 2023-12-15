@@ -39,7 +39,7 @@ when you want to run a script you need to provide the path to the script
 `./provision.sh` permission denied
 
 so we do
-`sudo cmod +x provision.sh` to give ourselves the execute permission for the file.
+`sudo chmod +x provision.sh` to give ourselves the execute permission for the file.
 
 if we want to make the process clearer we use
 
