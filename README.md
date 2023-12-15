@@ -43,3 +43,7 @@
 
 ## **Day 5 - Apache**
 ### <u>Lesson Notes</u>
+- AMI [Notes](Day-5/AMI.md)
+- Apache2 [Notes](Day-5/Apache2.md)
+- UserData [Notes](Day-5/UserData.md)
+- UserData script [Notes](Day-5/userDataScript.md)
