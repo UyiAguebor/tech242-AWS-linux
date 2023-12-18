@@ -1,5 +1,7 @@
 # <u>Week 1 - AWS and linux</u>
+## Table of Contents
 - [Week 1 - AWS and linux](#week-1---aws-and-linux)
+  - [Table of Contents](#table-of-contents)
   - [**Day 1 - Introduction to Cloud and AWS!**](#day-1---introduction-to-cloud-and-aws)
     - [Lesson Notes](#lesson-notes)
   - [**Day 2 - EC2, Bash and Linux**](#day-2---ec2-bash-and-linux)
@@ -9,7 +11,7 @@
     - [Lesson Notes](#lesson-notes-2)
   - [**Day 4 - Java App Deployment on VM**](#day-4---java-app-deployment-on-vm)
     - [Lesson Notes](#lesson-notes-3)
-  - [**Day 5 - Apache**](#day-5---apache)
+  - [**Day 5 - AMIs and Apache**](#day-5---amis-and-apache)
     - [Lesson Notes](#lesson-notes-4)
 
 ## **Day 1 - Introduction to Cloud and AWS!**
@@ -41,7 +43,7 @@
 - Deployment [Notes](Day-4/Deployment.md)
 - Deployment Steps [Notes](Day-4/DeployingJavaApp.md)
 
-## **Day 5 - Apache**
+## **Day 5 - AMIs and Apache**
 ### <u>Lesson Notes</u>
 - AMI [Notes](Day-5/AMI.md)
 - Apache2 [Notes](Day-5/Apache2.md)
