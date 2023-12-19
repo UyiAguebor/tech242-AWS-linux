@@ -13,6 +13,7 @@
     - [Lesson Notes](#lesson-notes-3)
   - [**Day 5 - AMIs and Apache**](#day-5---amis-and-apache)
     - [Lesson Notes](#lesson-notes-4)
+  - [**Day 6 - DB and APP Deployment**](#day-6---db-and-app-deployment)
 
 ## **Day 1 - Introduction to Cloud and AWS!**
 
@@ -40,7 +41,7 @@
 
 ## **Day 4 - Java App Deployment on VM**
 ### <u>Lesson Notes</u>
-- Deployment [Notes](Day-4/Deployment.md)
+- Deployment [Notes](Day-4/DeploymentTiers.md)
 - Deployment Steps [Notes](Day-4/DeployingJavaApp.md)
 
 ## **Day 5 - AMIs and Apache**
@@ -50,3 +51,8 @@
 - UserData [Notes](Day-5/UserData.md)
 - UserData script [Notes](Day-5/userDataScript.md)
 - Final Working Script [Script](Day-5/FinalScript)
+
+## **Day 6 - DB and APP Deployment**
+
+- App Script [Script](Day-6/AppScript.md)
+- db Script [Script](Day-6/DBScript.md)
