@@ -57,7 +57,7 @@ windows uses extension to determine the type of file
 - `curl {link}` : to download a file onto your machine
 - `cp {filetocopy copyfilename}` : copy a file
 - `rm {filename}` : remove a file
-- `rm -r {filename}` : remove a folder and everythigng in it
+- `rm -rf {filename}` : remove a folder and everythigng in it
 - `rmdir` : removes a directory
 - `mkdir {filename}` : makes a new directory/folder|linux treats everything as a file.mkdir. (can make more than one folder)
 - `touch {filename}` : make a empty file.
