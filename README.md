@@ -1,7 +1,5 @@
-# <u>Week 1 - AWS and linux</u>
-## Table of Contents
-- [Week 1 - AWS and linux](#week-1---aws-and-linux)
-  - [Table of Contents](#table-of-contents)
+# <u>Week 1 - Contents:</u>
+- [Week 1 - Contents:](#week-1---contents)
   - [**Day 1 - Introduction to Cloud and AWS!**](#day-1---introduction-to-cloud-and-aws)
     - [Lesson Notes](#lesson-notes)
   - [**Day 2 - EC2, Bash and Linux**](#day-2---ec2-bash-and-linux)
@@ -13,7 +11,10 @@
     - [Lesson Notes](#lesson-notes-3)
   - [**Day 5 - AMIs and Apache**](#day-5---amis-and-apache)
     - [Lesson Notes](#lesson-notes-4)
+    - [Deployment Notes](#deployment-notes)
   - [**Day 6 - DB and APP Deployment**](#day-6---db-and-app-deployment)
+    - [Lesson Notes](#lesson-notes-5)
+    - [Deployment Notes](#deployment-notes-1)
 
 ## **Day 1 - Introduction to Cloud and AWS!**
 
@@ -49,10 +50,15 @@
 - AMI [Notes](Day-5/AMI.md)
 - Apache2 [Notes](Day-5/Apache2.md)
 - UserData [Notes](Day-5/UserData.md)
+
+### <u>Deployment Notes</u>
 - UserData script [Notes](Day-5/userDataScript.md)
 - Final Working Script [Script](Day-5/FinalScript)
 
 ## **Day 6 - DB and APP Deployment**
+### <u>Lesson Notes</u>
+- Project [Overview](Day-6/ProjectOverview.md)
 
+### <u>Deployment Notes</u>
 - App Script [Script](Day-6/AppScript.md)
-- db Script [Script](Day-6/DBScript.md)
+- Database Script [Script](Day-6/DBScript.md)
