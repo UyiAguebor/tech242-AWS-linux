@@ -47,6 +47,7 @@
 
 ## **Day 5 - AMIs and Apache**
 ### <u>Lesson Notes</u>
+- Project [Overview](Day-5/ProjectOverview.md)
 - AMI [Notes](Day-5/AMI.md)
 - Apache2 [Notes](Day-5/Apache2.md)
 - UserData [Notes](Day-5/UserData.md)
