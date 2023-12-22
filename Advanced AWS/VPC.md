@@ -11,9 +11,7 @@ A VPC is a building/network shared with everyone else. Using the public cloud, a
 - Public subnet = App/Api
 - Private subnet = Database
 
-<img src="../readme-images/vpc.png" alt="VPC Image" width="200"/>
-
-**TCP/IP Network:** Every device needs an IP address. The IP address range is decided using a CIDR block (10.0.0.0), and subnet masks are not needed.
+TCP/IP Network: Every device needs an IP address. The IP address range is decided using a CIDR block (10.0.0.0), and subnet masks are not needed.
 
 - 10.0.0.0/16: First two values/numbers are locked, so change the last two.
 - 10.0.2.0/24: Public subnet
@@ -29,7 +27,7 @@ To come inside from the internet:
 2. Routed to the subnet
 3. Then to the VM
 
-<img src="../readme-images/VPC2.png" alt="VPC2 Image" width="400"/>
+<img src="../readme-images/vpc.png" alt="VPC Image" width="500"/>
 
 **Traffic:**
 - Insecure (outside VPC)
@@ -48,61 +46,78 @@ To come inside from the internet:
 ## AWS Method:
 
 1. Search VPC
+   
    <img src="../readme-images/vpcselect.png" alt="AWS VPC Image" width="400"/>
 
-2. VPCs
-3. Create VPC
+2. Create VPC
+   
    <img src="../readme-images/createvpc.png" alt="Create VPC Image" width="400"/>
 
-4. VPC only
-5. Name: tech242-uyi-2-tier-vpc
-6. CIDR: 10.0.0.0/16
+3. VPC only
+4. Name: tech242-uyi-2-tier-vpc
+5. CIDR: 10.0.0.0/16
+   
    <img src="../readme-images/vpcfill.png" alt="VPC Create Form Image" width="400"/>
 
-7. Create
-8. Subnets
+6. Create
+7. Subnets
+
    <img src="../readme-images/createSubnets.png" alt="Create Subnet Image" width="400"/>
 
-9. Create subnet
+8.  Create subnet
+   
    <img src="../readme-images/subnetfillform.png" alt="Subnet Fill Form Image" width="400"/>
 
-10. Internet Gateway
-    <img src="../readme-images/igwcreate.png" alt="Create IGW Image" width="400"/>
+9.  Internet Gateway
 
-11. Internet Gateway fill
-    <img src="../readme-images/igwfill.png" alt="IGW Fill Image" width="400"/>
+   <img src="../readme-images/igwcreate.png" alt="Create IGW Image" width="400"/>
 
-12. Attach Gateway to VPC
-    <img src="../readme-images/igwattachvpc.png" alt="Attach IGW to VPC Image" width="400"/>
+10. Internet Gateway fill
+    
+   <img src="../readme-images/igwfill.png" alt="IGW Fill Image" width="400"/>
 
-13. Attach to VPC fill
-    <img src="../readme-images/igwattachvpcfill.png" alt="Attach IGW to VPC Fill Image" width="400"/>
+11. Attach Gateway to VPC
+    
+   <img src="../readme-images/igwattachvpc.png" alt="Attach IGW to VPC Image" width="400"/>
 
-14. Create Routes
-    <img src="../readme-images/routescreate.png" alt="Create Route Image" width="400"/>
+12. Attach to VPC fill
+    
+   <img src="../readme-images/igwattachvpcfill.png" alt="Attach IGW to VPC Fill Image" width="400"/>
 
-15. Route fill
-    <img src="../readme-images/routefill.png" alt="Route Fill Image" width="400"/>
+13. Create Routes
+    
+   <img src="../readme-images/routescreate.png" alt="Create Route Image" width="400"/>
 
-16. Associate route with public subnet
-    <img src="../readme-images/associatesubnet.png" alt="Associate Subnet Image" width="400"/>
+14. Route fill
+    
+   <img src="../readme-images/routefill.png" alt="Route Fill Image" width="400"/>
 
-17. Associate fill
-    <img src="../readme-images/associatesubnetfill.png" alt="Associate Subnet Fill Image" width="400"/>
+15. Associate route with public subnet
+    
+   <img src="../readme-images/associatesubnet.png" alt="Associate Subnet Image" width="400"/>
 
-18. Associate route with IGW
-    <img src="../readme-images/routeigw.png" alt="Route IGW Image" width="400"/>
+16. Associate fill
+    
+   <img src="../readme-images/associatesubnetfill.png" alt="Associate Subnet Fill Image" width="400"/>
 
-19. Associate route with IGW fill
-    <img src="../readme-images/associateigwroutefill.png" alt="Associate IGW Route Fill Image" width="400"/>
+17. Associate route with IGW
+    
+   <img src="../readme-images/routeigw.png" alt="Route IGW Image" width="400"/>
 
-20. Check VPC
-    <img src="../readme-images/completevpc.png" alt="Final VPC Image" width="400"/>
+18. Associate route with IGW fill
+    
+   <img src="../readme-images/associateigwroutefill.png" alt="Associate IGW Route Fill Image" width="400"/>
+
+19. Check VPC
+    
+   <img src="../readme-images/completevpc.png" alt="Final VPC Image" width="400"/>
 
 Create DB VM with VPC
+
 <img src="../readme-images/securitygroupvpc.png" alt="DB Create VPC Image"/>
 
 Create App VM with VPC
+
 <img src="../readme-images/appvpc.png" alt="App Create VPC Image"/>
 
 Can't use VPC with old security group, so we have to create a new one.
