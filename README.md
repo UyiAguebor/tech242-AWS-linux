@@ -15,6 +15,8 @@
   - [**Day 6 - DB and APP Deployment**](#day-6---db-and-app-deployment)
     - [Lesson Notes](#lesson-notes-5)
     - [Deployment Notes](#deployment-notes-1)
+  - [**Advanced AWS**](#advanced-aws)
+    - [Lesson Notes](#lesson-notes-6)
 
 ## **Day 1 - Introduction to Cloud and AWS!**
 
@@ -63,3 +65,8 @@
 ### <u>Deployment Notes</u>
 - App Script [Script](Day-6/AppScript.md)
 - Database Script [Script](Day-6/DBScript.md)
+
+## **Advanced AWS**
+
+### <u>Lesson Notes</u>
+- VPC [Notes](<Advanced AWS/VPC.md>)
