@@ -45,70 +45,66 @@ To come inside from the internet:
 
 ## AWS Method:
 
-1. Search VPC
+1. Search for VPC in AWS
    
-   <img src="../readme-images/vpcselect.png" alt="AWS VPC Image" width="400"/>
+<img src="../readme-images/vpcselect.png" alt="AWS VPC Image" width="400"/>
 
 2. Create VPC
    
-   <img src="../readme-images/createvpc.png" alt="Create VPC Image" width="400"/>
+<img src="../readme-images/createvpc.png" alt="Create VPC Image" width="400"/>
 
-3. VPC only
-4. Name: tech242-uyi-2-tier-vpc
-5. CIDR: 10.0.0.0/16
    
-   <img src="../readme-images/vpcfill.png" alt="VPC Create Form Image" width="400"/>
+<img src="../readme-images/vpcfill.png" alt="VPC Create Form Image" width="400"/>
 
-6. Create
-7. Subnets
+3. Subnets
 
-   <img src="../readme-images/createSubnets.png" alt="Create Subnet Image" width="400"/>
+<img src="../readme-images/createSubnets.png" alt="Create Subnet Image" width="400"/>
 
-8.  Create subnet
+4.  Create subnet
    
    <img src="../readme-images/subnetfillform.png" alt="Subnet Fill Form Image" width="400"/>
 
-9.  Internet Gateway
+5.  Internet Gateway
 
    <img src="../readme-images/igwcreate.png" alt="Create IGW Image" width="400"/>
 
-10. Internet Gateway fill
+6.  Internet Gateway fill
     
    <img src="../readme-images/igwfill.png" alt="IGW Fill Image" width="400"/>
 
-11. Attach Gateway to VPC
+7.  Attach Gateway to VPC
     
    <img src="../readme-images/igwattachvpc.png" alt="Attach IGW to VPC Image" width="400"/>
 
-12. Attach to VPC fill
+8.  Attach to VPC fill
     
    <img src="../readme-images/igwattachvpcfill.png" alt="Attach IGW to VPC Fill Image" width="400"/>
 
-13. Create Routes
+9.  Create Routes
     
    <img src="../readme-images/routescreate.png" alt="Create Route Image" width="400"/>
 
-14. Route fill
+10. Route fill
     
    <img src="../readme-images/routefill.png" alt="Route Fill Image" width="400"/>
 
-15. Associate route with public subnet
+11. Associate route with public subnet
     
    <img src="../readme-images/associatesubnet.png" alt="Associate Subnet Image" width="400"/>
 
-16. Associate fill
+12. Associate fill
     
    <img src="../readme-images/associatesubnetfill.png" alt="Associate Subnet Fill Image" width="400"/>
 
-17. Associate route with IGW
+13. Associate route with IGW
     
    <img src="../readme-images/routeigw.png" alt="Route IGW Image" width="400"/>
 
-18. Associate route with IGW fill
+14. Associate route with IGW fill
     
    <img src="../readme-images/associateigwroutefill.png" alt="Associate IGW Route Fill Image" width="400"/>
 
-19. Check VPC
+15. Check VPC
     
    <img src="../readme-images/completevpc.png" alt="Final VPC Image" width="400"/>
 
