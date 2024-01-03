@@ -70,3 +70,4 @@
 
 ### <u>Lesson Notes</u>
 - VPC [Notes](<Advanced AWS/VPC.md>)
+- S3 [Notes](<Advanced AWS/S3.md>)
