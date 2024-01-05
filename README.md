@@ -73,3 +73,4 @@
 - S3 [Notes](<Advanced AWS/S3Info.md>)
 - S3 [Scripts](<Advanced AWS/S3.md>)
 - Monitoring [Notes](<Advanced AWS/Monitoring.md>)
+- Auto Scaling [Notes](<Advanced AWS/AutoScaling.md>)
