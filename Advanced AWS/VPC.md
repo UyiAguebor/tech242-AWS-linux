@@ -1,10 +1,10 @@
-# What is a Virtual Public Cloud (VPCS)
+# What is a Virtual Private Cloud (VPCS)
 
-**Definition:** A Virtual Public Cloud
+**Definition:** A Virtual Private Cloud
 
 **Availability Zone:** A Data Center
 
-A VPC is a building/network shared with everyone else. Using the public cloud, a VPC is like an apartment in this building, with default subnets associated with availability zones representing the rooms in the apartment (3 for Ireland).
+A VPC is a building/network shared with everyone else. Using the Private cloud, a VPC is like an apartment in this building, with default subnets associated with availability zones representing the rooms in the apartment (3 for Ireland).
 
 **Custom VPC:** Can be used to set public and private subnets.
 
