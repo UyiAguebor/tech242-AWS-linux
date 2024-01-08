@@ -16,10 +16,6 @@ AWS Vertical: increase the size of the Virtual Machine.
    2. Metrics to use (Average CPU utilization)
 5. Create the VMs (in Ireland Region but different availability zones)
 
-
-1. Create Launch Template
-
-
 load balancer and target group need to be deleted after ASG also
 
 ### 1. Create Auto Scaling Group
