@@ -1,5 +1,5 @@
-# <u>Week 1 - Contents:</u>
-- [Week 1 - Contents:](#week-1---contents)
+# <u>Contents:</u>
+- [Contents:](#contents)
   - [**Day 1 - Introduction to Cloud and AWS!**](#day-1---introduction-to-cloud-and-aws)
     - [Lesson Notes](#lesson-notes)
   - [**Day 2 - EC2, Bash and Linux**](#day-2---ec2-bash-and-linux)

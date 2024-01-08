@@ -54,7 +54,7 @@
 
 ![Breach ](../readme-images/alarm-trigger.png)
 
-## when this threshold was breached i recieved an email.
+## When this threshold was breached i recieved an email.
 
 ![Alarm](../readme-images/alarm.png)
 
