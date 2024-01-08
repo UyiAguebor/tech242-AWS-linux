@@ -17,6 +17,8 @@
     - [Deployment Notes](#deployment-notes-1)
   - [**Advanced AWS**](#advanced-aws)
     - [Lesson Notes](#lesson-notes-6)
+  - [CI/CD with Jenkins](#cicd-with-jenkins)
+    - [Lesson Notes](#lesson-notes-7)
 
 ## **Day 1 - Introduction to Cloud and AWS!**
 
@@ -75,3 +77,9 @@
 - Monitoring [Notes](<Advanced AWS/Monitoring.md>)
 - Auto Scaling [Notes](<Advanced AWS/AutoScaling.md>)
 - Alarm [Notes](<Advanced AWS/Alarm.md>)
+
+## CI/CD with Jenkins
+
+### <u>Lesson Notes</u>
+
+- SSH [Notes](CI-CD/Ssh.md)
