@@ -6,7 +6,6 @@
 
 Devs merge/Commit code to a master branch multiple times a day, so we automate build and test process which gives feedback within a few minutes to avoid integration hell.
 
-
 ## Continous Delivery
 
 ### Source -> Build -> Test -> Human Intervention -> Production
