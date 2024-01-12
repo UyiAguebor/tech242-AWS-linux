@@ -38,3 +38,17 @@
 5. Build Steps
  ![Build Steps](../readme-images/Job1BuildSteps.png)
 6. Add Trigger
+
+
+## Job 2
+
+1. github project - with link
+    ![Pic](../readme-images/job2git.png)
+2. add git repo info - with credentials
+3. post build actions - push only if build success
+4. post build actions- merge results
+5. post build actions - branch to push: main then target remote name: origin
+
+
+## Job 3
+
