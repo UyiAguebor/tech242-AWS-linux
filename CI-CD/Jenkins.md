@@ -11,7 +11,6 @@
 - Job 2 merge dev
 - Job 3 deploy
 
-
 ## Jenkins First Test Pipeline
 
 1. Setup dev branch
@@ -25,8 +24,6 @@
 9. Type a command like `uname -a`
 10. To make a pipeline go to Post-build Actions and select build other projects and select an existing project
 
-
-
 ## Job 1 test CI
 
 1. Description
@@ -39,7 +36,6 @@
  ![Build Steps](../readme-images/Job1BuildSteps.png)
 6. Add Trigger
 
-
 ## Job 2
 
 1. github project - with link
@@ -49,6 +45,13 @@
 4. post build actions- merge results
 5. post build actions - branch to push: main then target remote name: origin
 
-
 ## Job 3
+1. source code management git
+2. Build environment SSH agent -> add tech242 key
+3. build steps: 
+```
+scp -o StrictHostKeyChecking=no -r ../uyi-jsonvh-job1-ci-test/springapi ubuntu@ec2-18-201-139-56.eu-west-1.compute.amazonaws.com:~
+scp -o StrictHostKeyChecking=no -r ../uyi-jsonvh-job1-ci-test/TestResults ubuntu@ec2-18-201-139-56.eu-west-1.compute.amazonaws.com:~
+ssh -o StrictHostKeyChecking=no ubuntu@ec2-18-201-139-56.eu-west-1.compute.amazonaws.com "cd ~/springapi; mvn clean package spring-boot:start"
+```
 
